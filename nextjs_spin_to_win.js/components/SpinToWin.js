@@ -8,7 +8,7 @@ const SpinToWin = () => {
     const [tokenAddress, setTokenAddress] = useState("");
     const [amount, setAmount] = useState("");
     const [isFreeSpin, setIsFreeSpin] = useState(true);
-    const spinToWinAddress = "0xYourSpinToWinContract";
+    const spinToWinAddress = "0x5C15b900dbfBb63d1dd032a86A0336bA3769ca6c";
     const spinToWinABI = [
         "function addPrize(bool isFreeSpin, address token, uint256 amount) external",
         "function freeSpin() external",
